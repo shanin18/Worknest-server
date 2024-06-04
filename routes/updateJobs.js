@@ -5,7 +5,7 @@ const router = express.Router();
 const updateJobs = (database) => {
   const jobsCollection = database.collection("jobs");
 
-  router.put("/:id", async (req, res) => {
+  router.patch("/:id", async (req, res) => {
     try {
       const id = req.params.id;
       const data = req.body;
