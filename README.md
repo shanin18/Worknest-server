@@ -43,10 +43,14 @@ WorkNest is a cutting-edge platform designed to connect job seekers with employe
 <!-- Features -->
 
 ### Endpoints => <a name="endpoints"></a>
-get all & post jobs
+```sh
+get & post jobs
 - **https://worknest-server.vercel.app/jobs**
+get single job details
 - **https://worknest-server.vercel.app/jobs/details/${id}**
+delete or update a job
 - **https://worknest-server.vercel.app/jobs/${id}**
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
